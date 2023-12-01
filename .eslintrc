@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "airbnb/base",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-console": "warn",
+    "react/prop-types": "off",
+    "import/newline-after-import": "warn",
+    "no-multiple-empty-lines": "warn",
+    "no-unused-vars": "warn",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "default-case": "off",
+    "no-plusplus": "off",
+    "array-callback-return": "off",
+    "no-shadow": "off",
+    "linebreak-style": "off",
+    "no-trailing-spaces": "off",
+    "indent": "off",
+    "class-methods-use-this": "off",
+    "prettier/prettier": "error",
+    "max-len": "off",
+    "comma-dangle": "off"
+
+  },
+  "plugins": [
+    "eslint-plugin-prettier"
+  ]
+}
