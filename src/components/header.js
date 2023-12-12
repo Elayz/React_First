@@ -60,6 +60,7 @@ export default class Header extends Component {
       });
     };
     this.onLabelChange = (e) => {
+      console.log(e.target);
       this.setState({
         label: e.target.value,
       });
@@ -196,6 +197,7 @@ export default class Header extends Component {
             onEditingChange={this.onEditingChange}
             labelEdit={this.state.labelEdit}
             onEditFoo={this.onEditFoo}
+            startTimer={this.startTimer}
           >
             {this.state.inputValue}
           </Active>

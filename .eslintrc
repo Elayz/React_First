@@ -22,7 +22,9 @@
     "class-methods-use-this": "off",
     "prettier/prettier": "error",
     "max-len": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "object-curly-newline": "off",
+    "object-shorthand": "off",
 
   },
   "plugins": [

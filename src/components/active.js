@@ -21,17 +21,4 @@ export default class Active extends Component {
     ));
     return <ul className="todo-list">{elsements}</ul>;
   }
-  // static propTypes = {
-  //   children: (props, propName, componentName) => {
-  //     const value = props[propName];
-  //     if (typeof value === 'object') {
-  //       return null;
-  //     }
-  //     console.log(props);
-  //     return new TypeError('в selected подаётся не object');
-  //   },
-  // };
-  // static defaultProps = {
-  //   children: [],
-  // };
 }
