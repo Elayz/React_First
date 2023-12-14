@@ -35,7 +35,7 @@ export default class ActiveItem extends Component {
               timerId: timerId,
             });
           }
-        }, 100);
+        }, 1000);
       }
     };
     this.stopTimer = () => {
@@ -80,7 +80,7 @@ export default class ActiveItem extends Component {
       <li className={classNames}>
         {!onEdit ? (
           <div className="view">
-            <input onClick={this.props.onToggleDone} className="toggle" type="checkbox" />
+            <input onChange={this.stopTimer} onClick={this.props.onToggleDone} className="toggle" type="checkbox" />
             <label>
               <span className="title">{name}</span>
               <span style={styleTimer} className="description">
